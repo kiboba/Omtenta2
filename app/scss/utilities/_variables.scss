@@ -1,0 +1,18 @@
+// color map
+
+$color: (
+    myblue: #192b92,
+    myred: #b32020,
+    myyellow: #949410,
+    mygreen: #2fa82f,
+    mygrey: #595B5A
+) !default;
+
+// breakpoint map
+
+$breakpoints: (
+    'small':  ( min-width:  40.000em ),
+    'medium': ( min-width:  48.000em ),
+    'large':  ( min-width: 62.000em ),
+    'wide':  ( min-width: 75.000em )
+  ) !default;
